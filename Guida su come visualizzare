@@ -1,0 +1,106 @@
+ Introduzione
+
+Questo repository contiene un file pensato per fornire nozioni di base su Python, spiegate in modo semplice e accessibile anche a chi parte completamente da zero.
+L’obiettivo è aiutare chiunque voglia avvicinarsi alla programmazione a farlo senza difficoltà, con esempi chiari e concetti spiegati passo dopo passo.
+
+Sono felice di poter contribuire a questo progetto in ottica open source, condividendo materiale utile alla comunità e favorendo la crescita collettiva.
+
+
+---
+
+ Come visualizzare ed eseguire il file
+
+Puoi aprire ed eseguire questo progetto in diversi modi, anche se parti da zero.
+
+
+---
+
+ 1. Google Colab (il metodo più semplice)
+
+Non serve installare nulla sul tuo computer.
+
+Vai su Google Colab
+
+
+Clicca su File → Open Notebook
+
+
+Vai nella sezione GitHub
+
+
+Incolla l’URL di questo repository
+
+
+Seleziona il file e aprilo
+
+
+
+Ora puoi eseguire ogni cella cliccando .
+
+
+---
+
+ 2. Windows – Installare Python e Jupyter Notebook da zero
+
+Passo 1: Installare Python
+
+Vai su https://www.python.org/downloads/
+
+
+Scarica la versione per Windows
+
+
+Durante l’installazione spunta la casella "Add Python to PATH"
+
+
+Completa l’installazione
+
+
+
+Passo 2: Installare Jupyter Notebook
+
+Apri il Prompt dei comandi e scrivi:
+
+pip install notebook
+
+Passo 3: Avviare Jupyter
+
+Nel prompt, vai nella cartella dove hai salvato il file e avvia:usa "cd" oppure esegui il percorso a mano con \ fino ad Activate.
+
+jupyter notebook
+
+Si aprirà una finestra nel browser da cui potrai aprire il file ed eseguirlo.
+
+
+---
+
+ 3. Mac – Installare Python e Jupyter Notebook da zero
+
+Passo 1: Installare Homebrew (consigliato)
+
+Apri il Terminale e incolla:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+Passo 2: Installare Python
+
+Dopo l’installazione:
+
+brew install python
+
+Passo 3: Installare Jupyter Notebook
+
+Sempre da terminale:
+
+pip3 install notebook
+
+Passo 4: Avviare Jupyter
+
+Vai nella cartella del file e avvia:Spostati usando i comandi che ti indirizzano alla cartella.
+
+jupyter notebook
+
+Il browser si aprirà automaticamente e potrai caricare il file.
+
+
+---
